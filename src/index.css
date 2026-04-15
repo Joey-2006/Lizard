@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  --color-vibrant-bg-start: #8BC34A;
+  --color-vibrant-bg-end: #689F38;
+  --color-vibrant-score-bg: rgba(255, 255, 255, 0.95);
+  --color-vibrant-score-label: #33691E;
+  --color-vibrant-score-value: #1B5E20;
+  --color-vibrant-pill-bg: #FFCA28;
+  --color-vibrant-pill-shadow: #F57F17;
+  --color-vibrant-pill-text: #5D4037;
+  --color-vibrant-bug-red: #D32F2F;
+  --color-vibrant-bug-gold: #FFD600;
+  --color-vibrant-dark: #212121;
+}
+
+body {
+  background-color: var(--color-vibrant-bg-start);
+  color: var(--color-vibrant-dark);
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+  font-family: var(--font-sans);
+}
